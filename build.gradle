@@ -4,7 +4,7 @@ apply plugin: 'com.android.application'
 
 android {
         compileSdkVersion 20
-        //buildToolsVersion "20.1.2"
+        buildToolsVersion "20.1.2"
 
     defaultConfig {
         applicationId "com.brainbreaker.socialbuttons"
