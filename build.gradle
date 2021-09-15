@@ -1,5 +1,19 @@
 // Top-level build file where you can add configuration options common to all sub-projects/modules.
+apply plugin: 'com.android.application'
+apply plugin: 'com.google.gms.google-services'
 
+
+android {
+    compileSdkVersion 21
+    buildToolsVersion "21.0.2"
+
+    defaultConfig {
+        applicationId "com.brainbreaker.socialbuttons"
+        minSdkVersion 16
+        targetSdkVersion 23
+        versionCode 1
+        versionName "1.0"
+    }
 buildscript {
     repositories {
         jcenter()
