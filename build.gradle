@@ -3,13 +3,13 @@ apply plugin: 'com.android.application'
 
 
 android {
-        compileSdkVersion 21
-        buildToolsVersion "21.1.2"
+        compileSdkVersion 20
+        //buildToolsVersion "20.1.2"
 
     defaultConfig {
         applicationId "com.brainbreaker.socialbuttons"
         minSdkVersion 16
-        targetSdkVersion 23
+        targetSdkVersion 20
         versionCode 1
         versionName "1.0"
     }
